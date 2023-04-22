@@ -1,0 +1,10 @@
+import { StoryFn, Meta } from '@storybook/react'
+import {{pascalCase name}} from '.'
+import { {{pascalCase name}}Props } from './types'
+
+export default {
+  title: '{{pascalCase folder}}/{{pascalCase name}}',
+  component: {{pascalCase name}}
+} as Meta
+
+export const Basic: StoryFn<{{pascalCase name}}Props> = (args) => <{{pascalCase name}} {...args} />
